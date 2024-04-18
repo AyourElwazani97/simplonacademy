@@ -30,7 +30,10 @@ body {
 }
 
 .grid_child_each {
-  background-color: #d8d8d8;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
 
 .grid_child .grid_child_each_link {
@@ -39,13 +42,13 @@ body {
   border-radius: 8px;
   text-align: center;
   box-shadow: 0 0px 10px rgba(46, 48, 48, 0.8);
-  min-width: 200px;
+  min-width: 100%;
   border-top-left-radius: 0;
   border-top-right-radius: 0;
 }
 
 .grid_child_each_img img {
-  width: 300px;
+  width: 100%;
   object-fit: contain;
 }
 
