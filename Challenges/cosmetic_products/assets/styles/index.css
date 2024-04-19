@@ -14,7 +14,6 @@
   text-rendering: optimizeLegibility;
 }
 
-
 @font-face {
   font-family: "hazelnuts";
   src: url("../fonts/hazelnuts/TTHazelnuts-BoldItalic-Trial-BF6401510d8816f.otf");
@@ -103,7 +102,7 @@ a {
 }
 
 nav {
-  width: 80%;
+  width: 90%;
   display: var(--f);
   justify-content: var(--sb);
 }
@@ -179,7 +178,7 @@ nav {
 }
 
 .about-child {
-  width: 80%;
+  width: 90%;
   display: var(--f);
   justify-content: var(--sb);
   align-items: var(--c);
@@ -199,7 +198,8 @@ nav {
   line-height: 2;
 }
 
-.para-btn button , .products-grid-each-btns  button{
+.para-btn button,
+.products-grid-each-btns button {
   width: 200px;
   border-radius: 20px;
   background-color: var(--tr);
@@ -222,7 +222,7 @@ nav {
 }
 
 .products-handler {
-  width: 80%;
+  width: 90%;
   display: var(--f);
   justify-content: var(--sb);
   align-items: var(--c);
@@ -263,7 +263,7 @@ nav {
   justify-content: center;
   align-items: center;
   border-radius: 80px;
-  border: .1em solid #0c0c0c;
+  border: 0.1em solid #0c0c0c;
 }
 
 .products-grid-each-imghandler img {
@@ -290,4 +290,8 @@ nav {
 
 .products-grid-each-btns button {
   width: 300px;
+}
+
+.middle {
+  width: 280px;
 }
